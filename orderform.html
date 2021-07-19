@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link href="styles.css" rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Order Form</title>
+  </head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ordergorm.html">Pickup Orders</a></li>
+      <li><a href="services">Services</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1> Online Pickup Orders </h1>
+    <p> *Pricing subject to change at pickup</p>
+  </header>
+<section class="top-container">
+
+  <div class="top-box top-box-a">
+    <fieldset>
+      <legend> Live Bait: </legend>
+      <ul>
+        <li>
+         <label for="redworms">Redworms:</label>
+        </li>
+        <li>
+         <select id="redworms" name="redworms">
+           <option value="costcount1">$3.45/24ct</option>
+           <option value="costcount2">$6.90/48ct</option>
+        </select>
+           <input type="number" id="quantity" name="quantity" min="1" max="5">
+        </li>
+        <li>
+           <label for="nightcrawlers">Nightcrawlers:</label>
+       </li>
+        <li>
+           <select id="nightcrawlers" name="nightcrawlers">
+             <option value="costcount1">$2.80/12ct</option>
+             <option value="costcount2">$5.60/24ct</option>
+           </select>
+           <input type="number" id="quantity0" name="quantity" min="1" max="5">
+      </li>
+      <li>
+         <label for="glowworms">Glow Worms:</label>
+      </li>
+      <li>
+         <select id="glowworms" name="glowworms">
+           <option value="costcount1">$3.25/12 ct</option>
+           <option value="costcount2">$6.50/24ct</option>
+          </select>
+          <input type="number" id="quantity1" name="quantity" min="1" max="5">
+      </li>
+      <li>
+         <label for="waxworms">Wax Worms:</label>
+      </li>
+      <li>
+         <select id="waxworms" name="waxworms">
+           <option value="costcount1">$2.80/50ct</option>
+           <option value="costcount2">$5.60/100ct</option>
+         </select>
+        <input type="number" id="quantity2" name="quantity" min="1" max="5">
+       </li>
+
+       <li>
+         <label for="leeches">Leeches:</label>
+       </li>
+       <li>
+          <select id="leeches" name="leeches">
+           <option value="costcount1">$4.00/12ct</option>
+           <option value="costcount2">$8.00/24ct</option>
+         </select>
+          <input type="number" id="quantity3" name="quantity" min="1" max="5">
+      </li>
+      </ul>
+    </fieldset>
+
+  </div>
+
+  <div class="top-box top-box-b">
+
+    <fieldset>
+      <legend> Live Fish: </legend>
+      <ul>
+        <li>
+         <label for="crappie">Crappie Minnows:</label>
+      </li>
+      <li>
+         <select id="crappie" name="crappie">
+           <option value="costcount1">$2.00/12ct</option>
+           <option value="costcount2">$4.00/24ct</option>
+        </select>
+          <input type="number" id="quantity4" name="quantity" min="1" max="5">
+      </li>
+      <li>
+         <label for="bass">Bass Minnows:</label>
+      </li>
+      <li>
+       <select id="bass" name="bass">
+         <option value="costcount1">$2.20/12ct</option>
+         <option value="costcount2">$4.40/24ct</option>
+       </select>
+       <input type="number" id="quantit5" name="quantity" min="1" max="5">
+      </li>
+      <li>
+       <label for="goldfish">Small Goldfish:</label>
+      </li>
+      <li>
+       <select id="goldfish" name="goldfish">
+         <option value="costcount1">$4.00/2ct</option>
+         <option value="costcount2">$8.00/4ct</option>
+       </select>
+       <input type="number" id="quantity6" name="quantity" min="1" max="5">
+      </li>
+      <li>
+         <label for="goldfish">Large Goldfish:</label>
+      </li>
+      <li>
+        <select id="goldfish2" name="goldfish">
+          <option value="costcount1">$6.00/2ct</option>
+          <option value="costcount2">$12.00/4ct</option>
+        </select>
+        <input type="number" id="quantity7" name="quantity" min="1" max="5">
+      </li>
+
+      </ul>
+   </fieldset>
+
+  </div>
+
+      <div class="top-box top-box-c">
+        <fieldset>
+            <legend> Live Catfish </legend>
+          <ul>
+            <li>
+             <label for="catfish">Small:</label>
+           </li>
+           <li>
+             <select id="catfish" name="catfish">
+               <option value="costcount1">$1.50ea</option>
+               <option value="costcount2">$8.00/4ct</option>
+            </select>
+            <input type="number" id="quantity8" name="quantity" min="1" max="5">
+            </li>
+            <li>
+              <label for="catfish">Medium:</label>
+            </li>
+            <li>
+              <select id="catfish2" name="catfish">
+                <option value="costcount1">$6.00/2ct</option>
+                <option value="costcount2">$12.00/4ct</option>
+             </select>
+            <input type="number" id="quantity9" name="quantity" min="1" max="5">
+          </li>
+          <li>
+            <label for="catfish">Large:</label>
+          </li>
+          <li>
+           <select id="catfish3" name="catfish">
+                <option value="costcount1">$6.00/2ct</option>
+                <option value="costcount2">$12.00/4ct</option>
+          </select>
+          <input type="number" id="quantity10" name="quantity" min="1" max="5">
+        </li>
+      </ul>
+    </fieldset>
+  </div>
+    <div class="top-box top-box-d">
+      <fieldset>
+        <legend> Cold Bait: </legend>
+        <ul>
+          <li>
+           <label for="skipjack">Skipjack:</label>
+          </li>
+          <li>
+           <select id="skipjack" name="skipjack">
+             <option value="costcount1">$8.00ea</option>
+           </select>
+           <input type="number" id="quantity11" name="quantity" min="1" max="5">
+         </li>
+         <li>
+           <label for="shad">Shad:</label>
+         </li>
+         <li>
+           <select id="shad" name="shad">
+             <option value="costcount1">$6.00ea</option>
+           </select>
+           <input type="number" id="quantity12" name="quantity" min="1" max="5">
+         </li>
+         <li>
+           <label for="straw">Strawberry Liver:</label>
+        </li>
+        <li>
+         <select id="straw" name="straw">
+           <option value="costcount1">$3.00 Tub</option>
+            <option value="costcount1">$30.00 Bucket</option>
+         </select>
+           <input type="number" id="quantity13" name="quantity" min="1" max="5">
+          </li>
+          <li>
+           <label for="cherry">Cherry Liver:</label>
+         </li>
+         <li>
+           <select id="cherry" name="cherry">
+              <option value="costcount1">$3.00 Tub</option>
+              <option value="costcount1">$30.00 Bucket</option>
+           </select>
+           <input type="number" id="quantity14" name="quantity" min="1" max="5">
+        </li>
+        <li>
+           <label for="liver">Liver:</label>
+       </li>
+       <li>
+           <select id="liver" name="liver">
+            <option value="costcount1">$3.00 Tub</option>
+            <option value="costcount1">$30.00 Bucket</option>
+           </select>
+            <input type="number" id="quantity15" name="quantity" min="1" max="5">
+        </li>
+        <li>
+           <label for="shrimp">Shrimp:</label>
+        </li>
+        <li>
+         <select id="shrimp" name="shrimp">
+           <option value="costcount1">$4.50 Tub</option>
+           <option value="costcount1">$45.00 Bucket</option>
+         </select>
+         <input type="number" id="quantity16" name="quantity" min="1" max="5">
+        </li>
+        <li>
+           <label for="corn">Corn:</label>
+         </li>
+         <li>
+           <select id="corn" name="corn">
+             <option value="costcount1">$1.00 Tub</option>
+             <option value="costcount1">$10.00 Bucket</option>
+           </select>
+           <input type="number" id="quantity17" name="quantity" min="1" max="5">
+          </li>
+        </ul>
+       </fieldset>
+      </div>
+      <div class="top-box top-box-f">
+        <fieldset>
+          <legend> Special Requests & Place Order</legend>
+          <ul>
+            <li>
+              <label for="fname">
+               Name:
+               <input autofocus type="text" name= "fname" id=fname required placeholder="Name"/>
+             </label>
+           </li>
+           <li>
+               <label for="phone">
+                Phone:
+                <input type="text" name= "phone" id=phone required placeholder="Phone" />
+          </label>
+          </li>
+          </ul>
+            <label for="textarea">
+             <textarea id="textarea" name="textarea" rows="4" cols="50">
+             </textarea>
+            </label>
+                 <input type="submit" id="submit" value="Place Order"/>
+          </fieldset>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
